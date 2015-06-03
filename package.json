@@ -4,8 +4,8 @@
   "description": "A React app that displays a live Twitter feed",
   "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
   "scripts": {
-    "watch": "watchify app.js -o public/js/bundle.js -v",
-    "browserify": "browserify app.js | uglifyjs > public/js/bundle.js",
+    "watch": "watchify app.js -o public/js/app.js -v",
+    "browserify": "browserify app.js | uglifyjs > public/js/app.js",
     "build": "npm run browserify ",
     "start": "npm run watch & nodemon server.js"
   },
