@@ -13,7 +13,9 @@
   ],
   "repository": "https://github.com/thinkswan/react-twitter-stream",
   "success_url": "/",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "npm run build"
+  },
   "env": {},
   "addons": [
     "mongolab:sandbox"
