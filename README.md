@@ -11,22 +11,29 @@ View a live demo at: https://react-twitter-stream.herokuapp.com/
 
 ## How to use
 
-### Generate a Twitter consumer key, secret, and access token
+#### Clone the repo
+
+```
+git clone git@github.com:thinkswan/react-twitter-stream.git
+```
+
+#### Generate a Twitter consumer key, secret, and access token
 
 1. Create a new Twitter app at https://apps.twitter.com/app/new
-2. Visit the **Keys and Access Tokens** tab
-3. Generate a consumer key, secret, and access token
+1. Visit the **Keys and Access Tokens** tab
+1. Generate a consumer key, secret, and access token
+1. Add the generated keys to `config/default.json-example`
+1. Rename the config file: `mv config/default.json-example config/default.json`
 
-### Install MongoDB
+#### Install MongoDB
 
 * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
 * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
 * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 
-### Clone the repo
+#### Build the project
 
 ```
-git clone git@github.com:thinkswan/react-twitter-stream.git
 npm install
 npm run build
 npm start
@@ -40,6 +47,22 @@ Click the button below to spin up your own copy of the app in a Heroku
 instance.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+Once the app is deployed and you have the app name, you must set your generated
+Twitter keys as Heroku environment variables.
+
+```
+heroku config:set TWITTER_CONSUMER_KEY=<consumer_key> --app=<app_name>
+heroku config:set TWITTER_CONSUMER_SECRET=<consumer_secret> --app=<app_name>
+heroku config:set TWITTER_ACCESS_TOKEN_KEY=<access_token_key> --app=<app_name>
+heroku config:set TWITTER_ACCESS_TOKEN_SECRET=<access_token_secret> --app=<app_name>
+```
+
+Then restart the app.
+
+```
+heroku restart --app=<app_name>`
+```
 
 ## How it works
 
