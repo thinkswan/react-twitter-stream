@@ -7,7 +7,7 @@ var StreamHandler = function(stream, io) {
       twid: data['id'],
       active: false,
       author: data['user']['name'],
-      avatar: data['user']['profile_image_url'],
+      avatar: data['user']['profile_image_url_https'],
       body: data['text'],
       date: data['created_at'],
       screenname: data['user']['screen_name']
