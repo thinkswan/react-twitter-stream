@@ -7,7 +7,7 @@ https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react
 
 ## Demo
 
-View a live demo at: https://react-twitter-stream.herokuapp.com/
+View a live demo at https://react-twitter-stream.herokuapp.com/.
 
 ## How to use
 
@@ -39,7 +39,7 @@ npm run build
 npm start
 ```
 
-This will start a server at http://localhost:5000.
+This will start a server at http://localhost:5000/.
 
 ## How to deploy
 
@@ -58,11 +58,7 @@ heroku config:set TWITTER_ACCESS_TOKEN_KEY=<access_token_key> --app=<app_name>
 heroku config:set TWITTER_ACCESS_TOKEN_SECRET=<access_token_secret> --app=<app_name>
 ```
 
-Then restart the app.
-
-```
-heroku restart --app=<app_name>`
-```
+The app will now be live at `https://<app_name>.herokuapp.com/`.
 
 ## How it works
 
