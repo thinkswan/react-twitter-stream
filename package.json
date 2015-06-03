@@ -6,6 +6,7 @@
   "scripts": {
     "browserify": "browserify app.js | uglifyjs > public/js/app.js",
     "build": "npm run browserify ",
+    "postinstall": "npm run build",
     "start": "node server.js"
   },
   "main": "app.js",
