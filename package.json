@@ -27,6 +27,7 @@
     "tweet"
   ],
   "dependencies": {
+    "config": "^1.14.0",
     "express": "^4.12.4",
     "express-handlebars": "^2.0.1",
     "mongoose": "^4.0.4",
