@@ -11,8 +11,6 @@ var schema = new mongoose.Schema({
   screenname : String
 });
 
-var Tweet = mongoose.model('Tweet', schema);
-
 // Return tweets from the database
 schema.statics.getTweets = function(page, skip, callback) {
   var tweets = [];
@@ -36,5 +34,7 @@ schema.statics.getTweets = function(page, skip, callback) {
       callback(tweets);
   });
 };
+
+var Tweet = mongoose.model('Tweet', schema);
 
 module.exports = Tweet;
