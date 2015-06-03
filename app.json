@@ -15,5 +15,7 @@
   "success_url": "/",
   "scripts": {},
   "env": {},
-  "addons": []
+  "addons": [
+    "mongolab:sandbox"
+  ]
 }
