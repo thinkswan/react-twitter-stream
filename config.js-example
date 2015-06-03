@@ -1,6 +1,5 @@
-# How to obtain Twitter access tokens:
-#
-# https://dev.twitter.com/oauth/overview/application-owner-access-tokens
+# Obtain a Twitter access token by creating a new app
+# https://apps.twitter.com/app/new
 
 module.exports = {
   twitter: {
