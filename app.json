@@ -1,0 +1,19 @@
+{
+  "name": "react-twitter-stream",
+  "description": "A React app that displays a live Twitter feed",
+  "keywords": [
+    "node",
+    "express",
+    "react",
+    "socket.io",
+    "handlebars",
+    "mongo",
+    "twitter",
+    "tweet"
+  ],
+  "repository": "https://github.com/thinkswan/react-twitter-stream",
+  "success_url": "/",
+  "scripts": {},
+  "env": {},
+  "addons": []
+}
