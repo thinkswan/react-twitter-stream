@@ -31,11 +31,10 @@ git clone git@github.com:thinkswan/react-twitter-stream.git
 * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
 * http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 
-#### Build the project
+#### Install dependencies
 
 ```
 npm install
-npm run build
 npm start
 ```
 
