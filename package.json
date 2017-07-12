@@ -42,7 +42,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "^0.12.4"
+    "node": "8.1.4"
   },
   "browserify": {
     "transform": [
