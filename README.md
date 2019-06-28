@@ -5,10 +5,6 @@ A React app that displays a live Twitter feed.
 Based on the tutorial found at
 https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js.
 
-## Demo
-
-View a live demo at https://react-twitter-stream.herokuapp.com/.
-
 ## How to use
 
 #### Clone the repo
@@ -27,9 +23,9 @@ git clone git@github.com:thinkswan/react-twitter-stream.git
 
 #### Install MongoDB
 
-* http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
-* http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
-* http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
+- http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
+- http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+- http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
 
 #### Install dependencies
 
