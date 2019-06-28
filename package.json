@@ -2,7 +2,7 @@
   "name": "react-twitter-stream",
   "version": "0.0.0",
   "description": "A React app that displays a live Twitter feed",
-  "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
+  "author": "Graham Swan <thinkswan@gmail.com>",
   "scripts": {
     "browserify": "browserify app.js | uglifyjs > public/js/app.js",
     "build": "npm run browserify ",
@@ -14,9 +14,7 @@
     "type": "git",
     "url": "https://github.com/thinkswan/react-twitter-stream.git"
   },
-   "bugs": {
-    "url": "https://github.com/thinkswan/react-twitter-stream/issues"
-  },
+  "bugs": {},
   "keywords": [
     "node",
     "express",
